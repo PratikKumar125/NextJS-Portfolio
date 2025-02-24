@@ -243,22 +243,21 @@ export const DATA = {
   ],
   blogs: [
     {
-      title: "NestJS Monorepo to Kubernetes with MongoDB Statefulset.",
+      title: "Effortless Storage and Queue Management in Go: Building AWS-S3 Storage and Redis Queues Packages.",
       href: "/",
-      dates: "Aug 2024",
+      dates: "Dec 2024",
       active: true,
       description:
-        "In this blog post, I’ll walk you through the process of migrating a NestJS monorepo application to Kubernetes, using Minikube for local development. The project consists of two monorepo :- control-panel and auth, both of which rely on MongoDB for data storage and Redis for caching. The MongoDB instance is set up with a master-slave architecture using a StatefulSet, while Redis is deployed as a single pod.",
+        "The current implementation of the queue and storage systems demonstrates a powerful and flexible way to handle asynchronous job dispatching and processing using Go. The use of concurrency ensures that jobs are processed swiftly and reliably while maintaining simplicity in the design. This structure allows for scaling and adding more functionality over time.",
       technologies: [
-        "NestJS",
-        "MongoDB",
-        "Docker",
-        "Kubernetes"
+        "Golang",
+        "Redis",
+        "AWS-S3"
       ],
       links: [
         {
           type: "Website",
-          href: "https://medium.com/@prateektiwari378/nestjs-monorepo-to-kubernetes-with-mongodb-statefulset-a5dbaeb1ecd2",
+          href: "https://medium.com/@prateektiwari378/effortless-storage-and-queue-management-in-go-building-aws-s3-storage-and-redis-queues-packages-558d9e296696",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -281,6 +280,30 @@ export const DATA = {
         {
           type: "Website",
           href: "https://medium.com/@prateektiwari378/nestjs-graphql-a-comprehensive-guide-to-code-first-api-design-9064a581fc10",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "NestJS Monorepo to Kubernetes with MongoDB Statefulset.",
+      href: "/",
+      dates: "Aug 2024",
+      active: true,
+      description:
+        "In this blog post, I’ll walk you through the process of migrating a NestJS monorepo application to Kubernetes, using Minikube for local development. The project consists of two monorepo :- control-panel and auth, both of which rely on MongoDB for data storage and Redis for caching. The MongoDB instance is set up with a master-slave architecture using a StatefulSet, while Redis is deployed as a single pod.",
+      technologies: [
+        "NestJS",
+        "MongoDB",
+        "Docker",
+        "Kubernetes"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://medium.com/@prateektiwari378/nestjs-monorepo-to-kubernetes-with-mongodb-statefulset-a5dbaeb1ecd2",
           icon: <Icons.globe className="size-3" />,
         },
       ],
